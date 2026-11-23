@@ -1,0 +1,7 @@
+/vendor/
+/.env
+/storage/settings.json
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/storage/outputs/*
+!/storage/outputs/.gitkeep

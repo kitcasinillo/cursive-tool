@@ -1,0 +1,6 @@
+# Protect sensitive files on Apache / XAMPP
+<FilesMatch "^(\.env|composer\.(json|lock)|settings\.json)$">
+    Require all denied
+</FilesMatch>
+
+Options -Indexes
